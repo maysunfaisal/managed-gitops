@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
 )
 
 type ApplicationInfoCacheMessageType int

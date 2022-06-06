@@ -8,9 +8,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 
 	"github.com/go-logr/logr"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

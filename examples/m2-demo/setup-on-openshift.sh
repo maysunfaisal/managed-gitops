@@ -21,10 +21,10 @@ GITOPS_TEMP_DIR=`mktemp -d`
 
 cd "$GITOPS_TEMP_DIR"
 
-git clone https://github.com/redhat-appstudio/managed-gitops
+git clone https://github.com/maysunfaisal/managed-gitops
 cd managed-gitops
 
-# Checkout known working commit: https://github.com/redhat-appstudio/managed-gitops/commit/d9c002cfd5155edddfdc78f3e3c633ce3fe9746d
+# Checkout known working commit: https://github.com/maysunfaisal/managed-gitops/commit/d9c002cfd5155edddfdc78f3e3c633ce3fe9746d
 git checkout d9c002cfd5155edddfdc78f3e3c633ce3fe9746d
 
 # Apply the CRDs

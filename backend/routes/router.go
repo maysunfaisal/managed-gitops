@@ -6,7 +6,7 @@ import (
 
 	restful "github.com/emicklei/go-restful/v3"
 
-	webhooks "github.com/redhat-appstudio/managed-gitops/backend/routes/webhooks"
+	webhooks "github.com/maysunfaisal/managed-gitops/backend/routes/webhooks"
 )
 
 func RouteInit() *http.Server {

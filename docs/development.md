@@ -77,6 +77,6 @@ See this example:
 
 So, what is running in your cluster is only the PostgreSQL database, while the two operators (clusteragent and backend) are running locally (their respective resources although are loaded into the cluster).
 
-[Backend Shared]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared
-[Backend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
+[Backend Shared]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared
+[Backend]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent

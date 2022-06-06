@@ -24,9 +24,9 @@ import (
 	// to ensure that exec-entrypoint and run can make use of them.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"
@@ -35,10 +35,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
 	appv1 "github.com/argoproj/argo-cd/v2/pkg/apis/application/v1alpha1"
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
-	argoprojiocontrollers "github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/argoproj.io"
-	controllers "github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops"
-	"github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
+	argoprojiocontrollers "github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/argoproj.io"
+	controllers "github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops"
+	"github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop"
 	//+kubebuilder:scaffold:imports
 )
 

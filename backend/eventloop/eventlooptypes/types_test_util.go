@@ -3,9 +3,9 @@ package eventlooptypes
 import (
 	"testing"
 
-	operation "github.com/redhat-appstudio/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	operation "github.com/maysunfaisal/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

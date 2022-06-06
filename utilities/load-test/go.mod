@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/managed-gitops/utilities/load-test
+module github.com/maysunfaisal/managed-gitops/utilities/load-test
 
 go 1.16
 

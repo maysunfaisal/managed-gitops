@@ -55,7 +55,7 @@ status:
 These are the commands that were used to bootstrap the AppStudio controller. This should be useful when we later upgrade (re-bootstrap) onto a newer version of the operator-sdk.
 
 ```yaml
-go mod init github.com/redhat-appstudio/managed-gitops/appstudio-controller
+go mod init github.com/maysunfaisal/managed-gitops/appstudio-controller
 
 operator-sdk-v1.17 init --domain redhat.com
 

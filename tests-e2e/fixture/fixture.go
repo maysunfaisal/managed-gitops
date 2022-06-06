@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	operation "github.com/redhat-appstudio/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	operation "github.com/maysunfaisal/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
 
 	apps "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

@@ -63,22 +63,22 @@ or if you need to debug the image:
 docker run --rm -it gitops-service:latest # to get /bin/bash
 ```
 
-[Backend Shared]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared
-[Backend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
-[Frontend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/frontend
-[Load Test]: https://github.com/redhat-appstudio/managed-gitops/tree/main/utilities/load-test#argo-cd-load-test-utility
-[Manifests]: https://github.com/redhat-appstudio/managed-gitops/tree/main/manifests
+[Backend Shared]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared
+[Backend]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent
+[Frontend]: https://github.com/maysunfaisal/managed-gitops/tree/main/frontend
+[Load Test]: https://github.com/maysunfaisal/managed-gitops/tree/main/utilities/load-test#argo-cd-load-test-utility
+[Manifests]: https://github.com/maysunfaisal/managed-gitops/tree/main/manifests
 [KinD]: https://kind.sigs.k8s.io/docs/user/quick-start/
 [k3s]: https://k3s.io/
-[EventLoop]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend/eventloop
+[EventLoop]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend/eventloop
 [ArgoCD Application CR]: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
-[Another Event-Loop]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop
-[GitOps Operation Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
-[ArgoCD Application Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
+[Another Event-Loop]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop
+[GitOps Operation Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
+[ArgoCD Application Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
 [Docker]: https://www.docker.com/
-[db-schema]: https://github.com/redhat-appstudio/managed-gitops/blob/main/db-schema.sql
-[psql.sh]: https://github.com/redhat-appstudio/managed-gitops/blob/main/psql.sh
-[Operation CRD]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
-[routes]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend/routes
+[db-schema]: https://github.com/maysunfaisal/managed-gitops/blob/main/db-schema.sql
+[psql.sh]: https://github.com/maysunfaisal/managed-gitops/blob/main/psql.sh
+[Operation CRD]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
+[routes]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend/routes
 [Design]: https://docs.google.com/document/d/1e1UwCbwK-Ew5ODWedqp_jZmhiZzYWaxEvIL-tqebMzo/edit#heading=h.s0hdo22ap5cp

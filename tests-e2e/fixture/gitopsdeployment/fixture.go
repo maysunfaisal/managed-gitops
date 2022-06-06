@@ -9,11 +9,11 @@ import (
 
 	"context"
 
-	"github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture"
-	k8sFixture "github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture/k8s"
+	"github.com/maysunfaisal/managed-gitops/tests-e2e/fixture"
+	k8sFixture "github.com/maysunfaisal/managed-gitops/tests-e2e/fixture/k8s"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 )
 
 // HaveHealthStatusCode waits for the given GitOpsDeployment to have the expected Health status (e.g. "Healthy"/"Unhealthy").

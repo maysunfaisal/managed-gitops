@@ -11,7 +11,7 @@ import (
 	argoio "github.com/argoproj/argo-cd/v2/util/io"
 	"github.com/argoproj/gitops-engine/pkg/sync/common"
 	"github.com/go-logr/logr"
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	corev1 "k8s.io/api/core/v1"
 	apierr "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

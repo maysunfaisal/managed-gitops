@@ -77,6 +77,6 @@ deploy-postgresql              Deploy postgres into Kubernetes
 undeploy-postgresql            Undeploy postgres from Kubernetes
 ```
 
-[Backend Shared]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared
-[Backend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
+[Backend Shared]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared
+[Backend]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent

@@ -1,10 +1,10 @@
 package eventloop
 
 import (
+	"github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	"github.com/maysunfaisal/managed-gitops/backend/eventloop/eventlooptypes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
-	"github.com/redhat-appstudio/managed-gitops/backend/eventloop/eventlooptypes"
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 )

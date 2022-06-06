@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	v1 "k8s.io/api/core/v1"
 )
 

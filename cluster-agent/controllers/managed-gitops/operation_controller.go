@@ -24,8 +24,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
-	"github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
+	"github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop"
 )
 
 // OperationReconciler reconciles a Operation object

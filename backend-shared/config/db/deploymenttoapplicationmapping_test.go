@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
+	db "github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	db "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
 )
 
 func generateUuid() string {

@@ -2,9 +2,9 @@ package utils
 
 import (
 	"github.com/argoproj/argo-cd/v2/pkg/apiclient/session"
+	"github.com/maysunfaisal/managed-gitops/cluster-agent/utils/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/redhat-appstudio/managed-gitops/cluster-agent/utils/mocks"
 	"github.com/stretchr/testify/mock"
 )
 

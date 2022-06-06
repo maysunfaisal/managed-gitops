@@ -10,7 +10,7 @@ metadata:
 spec:
   params:
     - name: git-url
-      value: 'https://github.com/redhat-appstudio/managed-gitops'
+      value: 'https://github.com/maysunfaisal/managed-gitops'
     - name: revision
       value: "{{ revision }}"
     - name: output-image

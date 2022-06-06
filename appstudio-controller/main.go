@@ -31,13 +31,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
+	gitopsdeploymentv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 	applicationv1alpha1 "github.com/redhat-appstudio/application-service/api/v1alpha1"
-	gitopsdeploymentv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 
+	appstudioredhatcomcontrollers "github.com/maysunfaisal/managed-gitops/appstudio-controller/controllers/appstudio.redhat.com"
 	appstudioshared "github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1"
-	appstudioredhatcomcontrollers "github.com/redhat-appstudio/managed-gitops/appstudio-controller/controllers/appstudio.redhat.com"
 
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	//+kubebuilder:scaffold:imports
 )
 

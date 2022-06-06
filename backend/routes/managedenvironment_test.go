@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/redhat-appstudio/managed-gitops/backend/util"
+	"github.com/maysunfaisal/managed-gitops/backend/util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,19 +3,19 @@ package argoprojio_test
 import (
 	"context"
 
+	"github.com/maysunfaisal/managed-gitops/backend/eventloop/eventlooptypes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/redhat-appstudio/managed-gitops/backend/eventloop/eventlooptypes"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
 	appv1 "github.com/argoproj/argo-cd/v2/pkg/apis/application/v1alpha1"
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
-	argo "github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/argoproj.io"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	argo "github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/argoproj.io"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 )

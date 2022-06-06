@@ -1,7 +1,7 @@
 # Managed GitOps Backend-Shared Libraries
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/redhat-appstudio/managed-gitops/backend-shared)](https://goreportcard.com/report/github.com/redhat-appstudio/managed-gitops/backend-shared)
-[![GoDoc](https://godoc.org/github.com/redhat-appstudio/managed-gitops/backend-shared?status.svg)](https://pkg.go.dev/mod/github.com/redhat-appstudio/managed-gitops/backend-shared)
+[![Go Report Card](https://goreportcard.com/badge/github.com/maysunfaisal/managed-gitops/backend-shared)](https://goreportcard.com/report/github.com/maysunfaisal/managed-gitops/backend-shared)
+[![GoDoc](https://godoc.org/github.com/maysunfaisal/managed-gitops/backend-shared?status.svg)](https://pkg.go.dev/mod/github.com/maysunfaisal/managed-gitops/backend-shared)
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 ![Codecov](https://img.shields.io/codecov/c/github/redhat-appstudio/managed-gitops/tree/main/backend-shared)
 
@@ -44,22 +44,22 @@ Triggering `make test` it's _probably_ going to **fail** unless you have the req
 To do this, please refer to [monorepo README] to find more information about it.
 
 
-[Operation API]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
-[ArgoCD Application Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
-[GitOps Operation Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
-[EventLoop]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go
+[Operation API]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
+[ArgoCD Application Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
+[GitOps Operation Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
+[EventLoop]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go
 [Namespace instance]: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#namespace-v1-core
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
-[monorepo Makefile]: https://github.com/redhat-appstudio/managed-gitops/blob/main/Makefile
-[monorepo README]: https://github.com/redhat-appstudio/managed-gitops/blob/main/README.md
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent
+[monorepo Makefile]: https://github.com/maysunfaisal/managed-gitops/blob/main/Makefile
+[monorepo README]: https://github.com/maysunfaisal/managed-gitops/blob/main/README.md
 [ArgoCD Application CR]: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
-[Managed GitOps Backend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend
-[Operation CR]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
-[OperationID]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/apis/managed-gitops/v1alpha1/operation_types.go#L25
-[Operation CRD API]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
-[backend-shared]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-share
-[Database functions and structs]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared/config/db
-[Service Account]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/hack/service_account.go
-[Proxy Client]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/util/proxyclient.go
-[Find an ArgoCD instance]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/util/utils.go
-[Operation CRD]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
+[Managed GitOps Backend]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend
+[Operation CR]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
+[OperationID]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/apis/managed-gitops/v1alpha1/operation_types.go#L25
+[Operation CRD API]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
+[backend-shared]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-share
+[Database functions and structs]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared/config/db
+[Service Account]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/hack/service_account.go
+[Proxy Client]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/util/proxyclient.go
+[Find an ArgoCD instance]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/util/utils.go
+[Operation CRD]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml

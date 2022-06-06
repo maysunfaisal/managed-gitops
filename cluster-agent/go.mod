@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/managed-gitops/cluster-agent
+module github.com/maysunfaisal/managed-gitops/cluster-agent
 
 go 1.18
 
@@ -12,8 +12,8 @@ require (
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.19.0
 	github.com/openshift/api v3.9.0+incompatible
-	github.com/redhat-appstudio/managed-gitops/backend v0.0.0-20220422082552-1a27f1719d52
-	github.com/redhat-appstudio/managed-gitops/backend-shared v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend v0.0.0-20220422082552-1a27f1719d52
+	github.com/maysunfaisal/managed-gitops/backend-shared v0.0.0
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
 	google.golang.org/grpc v1.40.0
@@ -177,7 +177,7 @@ replace (
 	// https://github.com/golang/go/issues/33546#issuecomment-519656923
 	github.com/go-check/check => github.com/go-check/check v0.0.0-20180628173108-788fd7840127
 
-	github.com/redhat-appstudio/managed-gitops/backend-shared => ../backend-shared
+	github.com/maysunfaisal/managed-gitops/backend-shared => ../backend-shared
 	k8s.io/api => k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.1
 	k8s.io/apimachinery => k8s.io/apimachinery v0.23.1

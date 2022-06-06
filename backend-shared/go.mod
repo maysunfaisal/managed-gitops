@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/managed-gitops/backend-shared
+module github.com/maysunfaisal/managed-gitops/backend-shared
 
 go 1.18
 

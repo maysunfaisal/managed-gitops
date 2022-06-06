@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture"
+	"github.com/maysunfaisal/managed-gitops/tests-e2e/fixture"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	. "github.com/onsi/gomega"

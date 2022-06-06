@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	db "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	db "github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"

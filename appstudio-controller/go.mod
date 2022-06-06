@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/managed-gitops/appstudio-controller
+module github.com/maysunfaisal/managed-gitops/appstudio-controller
 
 go 1.18
 
@@ -8,8 +8,8 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/redhat-appstudio/application-service v0.0.0-20220217152658-648b04951243
 	github.com/maysunfaisal/managed-gitops/appstudio-shared v0.0.0
-	github.com/redhat-appstudio/managed-gitops/backend v0.0.0
-	github.com/redhat-appstudio/managed-gitops/backend-shared v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend-shared v0.0.0
 	k8s.io/apimachinery v0.23.0
 	k8s.io/client-go v0.23.0
 	sigs.k8s.io/controller-runtime v0.11.0
@@ -103,6 +103,6 @@ require (
 
 replace (
 	github.com/maysunfaisal/managed-gitops/appstudio-shared => ../appstudio-shared
-	github.com/redhat-appstudio/managed-gitops/backend => ../backend
-	github.com/redhat-appstudio/managed-gitops/backend-shared => ../backend-shared
+	github.com/maysunfaisal/managed-gitops/backend => ../backend
+	github.com/maysunfaisal/managed-gitops/backend-shared => ../backend-shared
 )

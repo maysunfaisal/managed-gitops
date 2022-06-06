@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	db "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	util "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
+	db "github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	util "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
 )
 
 var _ = Describe("application_info_cache Test", func() {

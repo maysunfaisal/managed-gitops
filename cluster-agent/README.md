@@ -1,7 +1,7 @@
 # Managed GitOps Cluster-Agent
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/redhat-appstudio/managed-gitops/cluster-agent)](https://goreportcard.com/report/github.com/redhat-appstudio/managed-gitops/cluster-agent)
-[![GoDoc](https://godoc.org/github.com/redhat-appstudio/managed-gitops/cluster-agent?status.svg)](https://pkg.go.dev/mod/github.com/redhat-appstudio/managed-gitops/cluster-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/maysunfaisal/managed-gitops/cluster-agent)](https://goreportcard.com/report/github.com/maysunfaisal/managed-gitops/cluster-agent)
+[![GoDoc](https://godoc.org/github.com/maysunfaisal/managed-gitops/cluster-agent?status.svg)](https://pkg.go.dev/mod/github.com/maysunfaisal/managed-gitops/cluster-agent)
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 ![Codecov](https://img.shields.io/codecov/c/github/redhat-appstudio/managed-gitops/tree/main/cluster-agent)
 
@@ -47,7 +47,7 @@ Finally, it updates the Database that the Operation is now _complete_ and then i
 
 **Note:**
 
-* The API for the Operation is  not present in the same component, but in the [backend-shared](https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1)
+* The API for the Operation is  not present in the same component, but in the [backend-shared](https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1)
 
 ## Development
 
@@ -77,17 +77,17 @@ make manifests generate
 
 Currently, it built using the **Operator SDK Framework** version **v1.11**
 
-[ArgoCD Application Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
-[GitOps Operation Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
-[EventLoop]: https://github.com/redhat-appstudio/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go
+[ArgoCD Application Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/argoproj.io/application_controller.go
+[GitOps Operation Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/operation_controller.go
+[EventLoop]: https://github.com/maysunfaisal/managed-gitops/blob/main/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go
 [Namespace instance]: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#namespace-v1-core
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
-[monorepo Makefile]: https://github.com/redhat-appstudio/managed-gitops/blob/main/Makefile
-[monorepo README]: https://github.com/redhat-appstudio/managed-gitops/blob/main/README.md
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent
+[monorepo Makefile]: https://github.com/maysunfaisal/managed-gitops/blob/main/Makefile
+[monorepo README]: https://github.com/maysunfaisal/managed-gitops/blob/main/README.md
 [ArgoCD Application CR]: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
-[Managed GitOps Backend]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend
-[Operation CR]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
-[OperationID]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend-shared/apis/managed-gitops/v1alpha1/operation_types.go#L25
-[Operation CRD API]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
-[backend-shared]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend-shared
-[utils]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent/utils
+[Managed GitOps Backend]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend
+[Operation CR]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/config/crd/bases/managed-gitops.redhat.com_operations.yaml
+[OperationID]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend-shared/apis/managed-gitops/v1alpha1/operation_types.go#L25
+[Operation CRD API]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared/apis/managed-gitops/v1alpha1
+[backend-shared]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend-shared
+[utils]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent/utils

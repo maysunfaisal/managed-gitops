@@ -2,7 +2,7 @@ package structs
 
 import (
 	"fmt"
-	api "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	api "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

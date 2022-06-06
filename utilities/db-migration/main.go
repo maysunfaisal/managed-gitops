@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	migrate "github.com/redhat-appstudio/managed-gitops/utilities/db-migrate/migrate"
+	migrate "github.com/maysunfaisal/managed-gitops/utilities/db-migrate/migrate"
 )
 
 func main() {

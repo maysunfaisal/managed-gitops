@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	restful "github.com/emicklei/go-restful/v3"
-	util "github.com/redhat-appstudio/managed-gitops/backend/util"
+	util "github.com/maysunfaisal/managed-gitops/backend/util"
 )
 
 func TestServer(t *testing.T) {

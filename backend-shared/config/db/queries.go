@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-pg/pg/v10"
 
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 

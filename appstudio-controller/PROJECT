@@ -6,7 +6,7 @@ plugins:
   manifests.sdk.operatorframework.io/v2: {}
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: appstudio-controller
-repo: github.com/redhat-appstudio/managed-gitops/appstudio-controller
+repo: github.com/maysunfaisal/managed-gitops/appstudio-controller
 resources:
 - controller: true
   domain: redhat.com

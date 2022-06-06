@@ -1,6 +1,6 @@
 # Managed GitOps Database Migration
 
-[![GoDoc](https://godoc.org/github.com/redhat-appstudio/managed-gitops/migration?status.svg)](https://pkg.go.dev/mod/github.com/redhat-appstudio/managed-gitops/migration)
+[![GoDoc](https://godoc.org/github.com/maysunfaisal/managed-gitops/migration?status.svg)](https://pkg.go.dev/mod/github.com/maysunfaisal/managed-gitops/migration)
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ----

@@ -1,13 +1,13 @@
 package core
 
 import (
+	"github.com/maysunfaisal/managed-gitops/tests-e2e/fixture"
+	gitopsDeplFixture "github.com/maysunfaisal/managed-gitops/tests-e2e/fixture/gitopsdeployment"
+	"github.com/maysunfaisal/managed-gitops/tests-e2e/fixture/k8s"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture"
-	gitopsDeplFixture "github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture/gitopsdeployment"
-	"github.com/redhat-appstudio/managed-gitops/tests-e2e/fixture/k8s"
 
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
 	apps "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

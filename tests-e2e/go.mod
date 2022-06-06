@@ -1,13 +1,13 @@
-module github.com/redhat-appstudio/managed-gitops/tests-e2e
+module github.com/maysunfaisal/managed-gitops/tests-e2e
 
 go 1.18
 
 require (
 	github.com/argoproj/argo-cd/v2 v2.3.1
 	github.com/redhat-appstudio/application-service v0.0.0-20220316030335-c7f42f12f29f
-	github.com/redhat-appstudio/managed-gitops/appstudio-controller v0.0.0
-	github.com/redhat-appstudio/managed-gitops/backend v0.0.0
-	github.com/redhat-appstudio/managed-gitops/backend-shared v0.0.0
+	github.com/maysunfaisal/managed-gitops/appstudio-controller v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend-shared v0.0.0
 	k8s.io/apimachinery v0.23.1
 	k8s.io/client-go v0.23.1
 	sigs.k8s.io/controller-runtime v0.11.0
@@ -199,11 +199,11 @@ require (
 replace (
 	// https://github.com/golang/go/issues/33546#issuecomment-519656923
 	github.com/go-check/check => github.com/go-check/check v0.0.0-20180628173108-788fd7840127
-	github.com/redhat-appstudio/managed-gitops/appstudio-controller => ../appstudio-controller
+	github.com/maysunfaisal/managed-gitops/appstudio-controller => ../appstudio-controller
 	github.com/maysunfaisal/managed-gitops/appstudio-shared => ../appstudio-shared
-	github.com/redhat-appstudio/managed-gitops/backend => ../backend
-	github.com/redhat-appstudio/managed-gitops/backend-shared => ../backend-shared
-	github.com/redhat-appstudio/managed-gitops/cluster-agent => ../cluster-agent
+	github.com/maysunfaisal/managed-gitops/backend => ../backend
+	github.com/maysunfaisal/managed-gitops/backend-shared => ../backend-shared
+	github.com/maysunfaisal/managed-gitops/cluster-agent => ../cluster-agent
 
 	k8s.io/api => k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.1

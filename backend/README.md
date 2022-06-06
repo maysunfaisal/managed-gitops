@@ -1,8 +1,8 @@
 
 # Managed GitOps Backend
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/redhat-appstudio/managed-gitops/backend)](https://goreportcard.com/report/github.com/redhat-appstudio/managed-gitops/backend)
-[![GoDoc](https://godoc.org/github.com/redhat-appstudio/managed-gitops/backend?status.svg)](https://pkg.go.dev/mod/github.com/redhat-appstudio/managed-gitops/backend)
+[![Go Report Card](https://goreportcard.com/badge/github.com/maysunfaisal/managed-gitops/backend)](https://goreportcard.com/report/github.com/maysunfaisal/managed-gitops/backend)
+[![GoDoc](https://godoc.org/github.com/maysunfaisal/managed-gitops/backend?status.svg)](https://pkg.go.dev/mod/github.com/maysunfaisal/managed-gitops/backend)
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 ![Codecov](https://img.shields.io/codecov/c/github/redhat-appstudio/managed-gitops/tree/main/backend)
 
@@ -91,14 +91,14 @@ make manifests generate
 
 Currently, it built using the **Operator SDK Framework** version **v1.11**
 
-[GitOps Deployment Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend/controllers/managed-gitops/gitopsdeployment_controller.go
-[GitOps Deployment SyncRun Controller]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend/controllers/managed-gitops/gitopsdeploymentsyncrun_controller.go
-[EventLoop]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend/eventloop
+[GitOps Deployment Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend/controllers/managed-gitops/gitopsdeployment_controller.go
+[GitOps Deployment SyncRun Controller]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend/controllers/managed-gitops/gitopsdeploymentsyncrun_controller.go
+[EventLoop]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend/eventloop
 [Namespace instance]: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#namespace-v1-core
-[Cluster-Agent]: https://github.com/redhat-appstudio/managed-gitops/tree/main/cluster-agent
-[monorepo Makefile]: https://github.com/redhat-appstudio/managed-gitops/blob/main/Makefile
-[monorepo README]: https://github.com/redhat-appstudio/managed-gitops/blob/main/README.md
-[routes]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend/routes
-[GitOpsDeployment CRD]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend/config/crd/bases/managed-gitops.redhat.com_gitopsdeployments.yaml
-[GitOpsDeploymentSyncRun CRD]: https://github.com/redhat-appstudio/managed-gitops/blob/main/backend/config/crd/bases/managed-gitops.redhat.com_gitopsdeploymentsyncruns.yaml
-[util]: https://github.com/redhat-appstudio/managed-gitops/tree/main/backend/util
+[Cluster-Agent]: https://github.com/maysunfaisal/managed-gitops/tree/main/cluster-agent
+[monorepo Makefile]: https://github.com/maysunfaisal/managed-gitops/blob/main/Makefile
+[monorepo README]: https://github.com/maysunfaisal/managed-gitops/blob/main/README.md
+[routes]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend/routes
+[GitOpsDeployment CRD]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend/config/crd/bases/managed-gitops.redhat.com_gitopsdeployments.yaml
+[GitOpsDeploymentSyncRun CRD]: https://github.com/maysunfaisal/managed-gitops/blob/main/backend/config/crd/bases/managed-gitops.redhat.com_gitopsdeploymentsyncruns.yaml
+[util]: https://github.com/maysunfaisal/managed-gitops/tree/main/backend/util

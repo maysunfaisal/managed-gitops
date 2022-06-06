@@ -3,8 +3,8 @@ package eventloop
 import (
 	"context"
 
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
-	"github.com/redhat-appstudio/managed-gitops/backend/eventloop/eventlooptypes"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
+	"github.com/maysunfaisal/managed-gitops/backend/eventloop/eventlooptypes"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 

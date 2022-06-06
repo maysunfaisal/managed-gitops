@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/managed-gitops/backend
+module github.com/maysunfaisal/managed-gitops/backend
 
 go 1.18
 
@@ -9,7 +9,7 @@ require (
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/onsi/ginkgo/v2 v2.1.3
 	github.com/onsi/gomega v1.19.0
-	github.com/redhat-appstudio/managed-gitops/backend-shared v0.0.0
+	github.com/maysunfaisal/managed-gitops/backend-shared v0.0.0
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	gopkg.in/yaml.v2 v2.4.0
@@ -88,4 +88,4 @@ require (
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
-replace github.com/redhat-appstudio/managed-gitops/backend-shared => ../backend-shared
+replace github.com/maysunfaisal/managed-gitops/backend-shared => ../backend-shared

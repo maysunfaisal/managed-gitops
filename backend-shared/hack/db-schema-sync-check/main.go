@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
 )
 
 const (

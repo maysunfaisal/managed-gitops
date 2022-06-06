@@ -9,7 +9,7 @@ import (
 	migrate "github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-	db "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
+	db "github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
 )
 
 func Main(op_type string) {

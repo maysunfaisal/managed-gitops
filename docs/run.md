@@ -68,11 +68,11 @@ panic: runtime error: invalid memory address or nil pointer dereference
 [signal SIGSEGV: segmentation violation code=0x1 addr=0x18 pc=0x28e1220]
 
 goroutine 140 [running]:
-github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.(*processEventTask).performTask(0xc000bc1f38, 0x312ae48, 0xc00013a010, 0x0, 0x0, 0x0)
+github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.(*processEventTask).performTask(0xc000bc1f38, 0x312ae48, 0xc00013a010, 0x0, 0x0, 0x0)
 	/workspace/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go:196 +0x9e0
-github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.controllerEventLoopRouter(0xc00036ccc0)
+github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.controllerEventLoopRouter(0xc00036ccc0)
 	/workspace/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go:78 +0xcf
-created by github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.NewControllerEventLoop
+created by github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.NewControllerEventLoop
 	/workspace/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go:36 +0x8c
 ```
 
@@ -94,7 +94,7 @@ The cluster-agent should wake up, detect the change, attempt to connect to the d
 SELECT "op"."operation_id", "op"."seq_id", "op"."instance_id", "op"."resource_id", "op"."operation_owner_user_id", "op"."resource_type", "op"."created_on", "op"."last_state_update", "op"."state", "op"."human_readable_state" FROM "operation" AS "op" WHERE (operation_id = 'fake-uuid!!!!')
 
 2022-01-31T11:25:13.966Z	ERROR	unable to locate operation 'fake-uuid!!!!': no rows in result set	{"error": "unable to locate operation 'fake-uuid!!!!': no rows in result set"}
-github.com/redhat-appstudio/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.controllerEventLoopRouter
+github.com/maysunfaisal/managed-gitops/cluster-agent/controllers/managed-gitops/eventloop.controllerEventLoopRouter
 	/workspace/cluster-agent/controllers/managed-gitops/eventloop/eventloop.go:78
   ```
 

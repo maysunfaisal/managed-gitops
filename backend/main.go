@@ -40,15 +40,15 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
 	"github.com/go-logr/logr"
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 
-	managedgitopsv1alpha1operation "github.com/redhat-appstudio/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
-	"github.com/redhat-appstudio/managed-gitops/backend-shared/config/db"
-	dbutil "github.com/redhat-appstudio/managed-gitops/backend-shared/config/db/util"
-	managedgitopsv1alpha1 "github.com/redhat-appstudio/managed-gitops/backend/apis/managed-gitops/v1alpha1"
-	managedgitopscontrollers "github.com/redhat-appstudio/managed-gitops/backend/controllers/managed-gitops"
-	"github.com/redhat-appstudio/managed-gitops/backend/eventloop"
-	"github.com/redhat-appstudio/managed-gitops/backend/routes"
+	managedgitopsv1alpha1operation "github.com/maysunfaisal/managed-gitops/backend-shared/apis/managed-gitops/v1alpha1"
+	"github.com/maysunfaisal/managed-gitops/backend-shared/config/db"
+	dbutil "github.com/maysunfaisal/managed-gitops/backend-shared/config/db/util"
+	managedgitopsv1alpha1 "github.com/maysunfaisal/managed-gitops/backend/apis/managed-gitops/v1alpha1"
+	managedgitopscontrollers "github.com/maysunfaisal/managed-gitops/backend/controllers/managed-gitops"
+	"github.com/maysunfaisal/managed-gitops/backend/eventloop"
+	"github.com/maysunfaisal/managed-gitops/backend/routes"
 	//+kubebuilder:scaffold:imports
 )
 

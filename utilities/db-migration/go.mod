@@ -1,10 +1,10 @@
-module github.com/redhat-appstudio/managed-gitops/utilities/db-migrate
+module github.com/maysunfaisal/managed-gitops/utilities/db-migrate
 
 go 1.17
 
 require (
 	github.com/golang-migrate/migrate/v4 v4.15.2
-	github.com/redhat-appstudio/managed-gitops/backend-shared v0.0.0-00010101000000-000000000000
+	github.com/maysunfaisal/managed-gitops/backend-shared v0.0.0-00010101000000-000000000000
 	sigs.k8s.io/controller-runtime v0.12.1
 )
 
@@ -88,4 +88,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/redhat-appstudio/managed-gitops/backend-shared => ../../backend-shared
+replace github.com/maysunfaisal/managed-gitops/backend-shared => ../../backend-shared

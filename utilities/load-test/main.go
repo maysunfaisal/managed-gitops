@@ -1,7 +1,7 @@
 package main
 
 import (
-	utils "github.com/redhat-appstudio/managed-gitops/utilities/load-test/loadtest"
+	utils "github.com/maysunfaisal/managed-gitops/utilities/load-test/loadtest"
 )
 
 func main() {

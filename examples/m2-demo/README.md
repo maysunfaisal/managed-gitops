@@ -8,7 +8,7 @@
 
 2) Clone this repo and move into the `m2-demo` directory:
 ```
-git clone https://github.com/redhat-appstudio/managed-gitops
+git clone https://github.com/maysunfaisal/managed-gitops
 cd managed-gitops/examples/m2-demo
 ```
 
@@ -125,7 +125,7 @@ kubectl delete -f jgw-deployment.yaml
 - The Argo CD `Application` CR is likewise cleaned up, along with deployed resources.
 
 At any step in the process, you can also view the database internals:
-- Run `psql.sh` from the [managed-gitops](https://github.com/redhat-appstudio/managed-gitops) repo to automatically open *psql* utility against the PostgreSQL database.
+- Run `psql.sh` from the [managed-gitops](https://github.com/maysunfaisal/managed-gitops) repo to automatically open *psql* utility against the PostgreSQL database.
 - Some example queries:
     - See Argo CD Application entries: `select * from application;`
         - _(Don't forget the semi-colon at the end of these statements!)_

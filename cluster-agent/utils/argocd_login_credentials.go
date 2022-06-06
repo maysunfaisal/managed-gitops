@@ -13,7 +13,7 @@ import (
 	routev1 "github.com/openshift/api/route/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	sharedutil "github.com/redhat-appstudio/managed-gitops/backend-shared/util"
+	sharedutil "github.com/maysunfaisal/managed-gitops/backend-shared/util"
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"

@@ -65,7 +65,7 @@ func init() {
 
 #### Examples
 
-For [an example of generated controllers](https://github.com/redhat-appstudio/managed-gitops/tree/main/appstudio-controller/controllers/appstudio.redhat.com), see the controllers that were generated for the `appstudio-controller` component of GitOps Service.
+For [an example of generated controllers](https://github.com/maysunfaisal/managed-gitops/tree/main/appstudio-controller/controllers/appstudio.redhat.com), see the controllers that were generated for the `appstudio-controller` component of GitOps Service.
 
 
 
