@@ -58,7 +58,7 @@ require (
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/redhat-appstudio/managed-gitops/appstudio-shared v0.0.0 // indirect
+	github.com/maysunfaisal/managed-gitops/appstudio-shared v0.0.0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/spf13/cobra v1.2.1 // indirect
@@ -200,7 +200,7 @@ replace (
 	// https://github.com/golang/go/issues/33546#issuecomment-519656923
 	github.com/go-check/check => github.com/go-check/check v0.0.0-20180628173108-788fd7840127
 	github.com/redhat-appstudio/managed-gitops/appstudio-controller => ../appstudio-controller
-	github.com/redhat-appstudio/managed-gitops/appstudio-shared => ../appstudio-shared
+	github.com/maysunfaisal/managed-gitops/appstudio-shared => ../appstudio-shared
 	github.com/redhat-appstudio/managed-gitops/backend => ../backend
 	github.com/redhat-appstudio/managed-gitops/backend-shared => ../backend-shared
 	github.com/redhat-appstudio/managed-gitops/cluster-agent => ../cluster-agent

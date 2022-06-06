@@ -40,7 +40,7 @@ operator-sdk create api --group appstudio --version v1alpha1 --kind Environment 
 
 Run the following command:
 ```bash
-go get github.com/redhat-appstudio/managed-gitops/appstudio-shared
+go get github.com/maysunfaisal/managed-gitops/appstudio-shared
 ```
 
 
@@ -53,7 +53,7 @@ After generating each controller, ensure you update the `SetupWithManager` funct
 ```go
 import (
     // (...)
-    appstudioshared "github.com/redhat-appstudio/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1"
+    appstudioshared "github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1"
 )
 
 func init() {
@@ -77,7 +77,7 @@ Bootstrapped with operator-sdk v1.17.
 These are the commands that were used to bootstrap the resources. This should be useful when we later upgrade (re-bootstrap) onto a newer version of the operator-sdk.
 
 ```yaml
-go mod init github.com/redhat-appstudio/managed-gitops/appstudio-shared
+go mod init github.com/maysunfaisal/managed-gitops/appstudio-shared
 
 operator-sdk-v1.17 init --domain redhat.com
 
