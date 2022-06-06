@@ -24,6 +24,7 @@ package v1alpha1
 import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 )
 
@@ -263,6 +264,13 @@ func (in *ApplicationSnapshotEnvironmentBindingStatus) DeepCopyInto(out *Applica
 		in, out := &in.Components, &out.Components
 		*out = make([]ComponentStatus, len(*in))
 		copy(*out, *in)
+	}
+	if in.GitOpsRepoConditions != nil {
+		in, out := &in.GitOpsRepoConditions, &out.GitOpsRepoConditions
+		*out = make([]metav1.Condition, len(*in))
+		for i := range *in {
+			(*in)[i].DeepCopyInto(&(*out)[i])
+		}
 	}
 }
 

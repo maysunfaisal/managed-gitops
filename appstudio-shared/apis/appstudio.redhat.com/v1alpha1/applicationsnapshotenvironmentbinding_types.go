@@ -116,6 +116,9 @@ type ApplicationSnapshotEnvironmentBindingStatus struct {
 
 	// Components contains individual component gitops repo data
 	Components []ComponentStatus `json:"components,omitempty"`
+
+	// Condition about the GitOps Repo
+	GitOpsRepoConditions []metav1.Condition `json:"gitopsRepoConditions,omitempty"`
 }
 
 // BindingStatusGitOpsDeployment describes an individual reference
