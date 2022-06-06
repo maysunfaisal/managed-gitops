@@ -48,6 +48,15 @@ type BindingComponent struct {
 	// - Values defined in this struct will overwrite values from Application/Environment/Component
 	Configuration BindingComponentConfiguration `json:"configuration,omitempty"`
 
+	// // GitOpsRepository contains the Git URL, path, and branch, for the component
+	// GitOpsRepository BindingComponentGitOpsRepository `json:"gitopsRepository"`
+}
+
+type ComponentStatus struct {
+
+	// Name is the name of the component.
+	Name string `json:"name"`
+
 	// GitOpsRepository contains the Git URL, path, and branch, for the component
 	GitOpsRepository BindingComponentGitOpsRepository `json:"gitopsRepository"`
 }
@@ -104,6 +113,9 @@ type ApplicationSnapshotEnvironmentBindingStatus struct {
 	// GitOpsDeployments describes the set of GitOpsDeployment resources that correspond to the binding.
 	// To determine the health/sync status of a binding, you can look at the GitOpsDeployments decribed here.
 	GitOpsDeployments []BindingStatusGitOpsDeployment `json:"gitopsDeployments,omitempty"`
+
+	// Components contains individual component gitops repo data
+	Components []ComponentStatus `json:"components,omitempty"`
 }
 
 // BindingStatusGitOpsDeployment describes an individual reference
