@@ -6,7 +6,7 @@ plugins:
   manifests.sdk.operatorframework.io/v2: {}
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: appstudio-shared
-repo: github.com/redhat-appstudio/managed-gitops/appstudio-shared
+repo: github.com/maysunfaisal/managed-gitops/appstudio-shared
 resources:
 - api:
     crdVersion: v1
@@ -14,7 +14,7 @@ resources:
   domain: redhat.com
   group: appstudio.redhat.com
   kind: Environment
-  path: github.com/redhat-appstudio/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
+  path: github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -22,7 +22,7 @@ resources:
   domain: redhat.com
   group: appstudio.redhat.com
   kind: ApplicationSnapshotEnvironmentBinding
-  path: github.com/redhat-appstudio/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
+  path: github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -30,7 +30,7 @@ resources:
   domain: redhat.com
   group: appstudio.redhat.com
   kind: ApplicationSnapshot
-  path: github.com/redhat-appstudio/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
+  path: github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -38,6 +38,6 @@ resources:
   domain: redhat.com
   group: appstudio.redhat.com
   kind: ApplicationPromotionRun
-  path: github.com/redhat-appstudio/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
+  path: github.com/maysunfaisal/managed-gitops/appstudio-shared/apis/appstudio.redhat.com/v1alpha1
   version: v1alpha1
 version: "3"
